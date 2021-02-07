@@ -5,9 +5,27 @@ body{
     margin: 0;
 
 }
+
 /*Navbar*/
 .bg-alpha{
     background: rgba(0, 0, 0, 0.5);
+}
+
+/* Section setting */
+
+.border-short-bottom{
+    position: relative;
+    
+}
+.border-short-bottom::after{
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 2px;
+    bottom: 0px;
+    background: black;
+    left: 10%;
+    margin-left: -90px;
 }
 
 /*Carousel*/
@@ -32,5 +50,7 @@ body{
     background: rgba(0, 0, 0, 0.5);
     height: 100%;
 }
+
+
 
 
