@@ -1,4 +1,4 @@
-
+/* 808080 ,BFD1E5,EBF5EE */
 html, 
 body{
     height: 100%;
@@ -24,8 +24,22 @@ body{
     height: 2px;
     bottom: 0px;
     background: black;
-    left: 10%;
+    left: 13%;
     margin-left: -90px;
+}
+.border-short-bottom-blog{
+    position: relative;
+    
+}
+.border-short-bottom-blog::after{
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 2px;
+    bottom: 0px;
+    background: black;
+    left: 50%;
+    margin-left: -50px;
 }
 
 /*Carousel*/
@@ -51,6 +65,36 @@ body{
     height: 100%;
 }
 
+/* Sectiom blog */
+.warpper-card-img{
+    position: relative;
+    padding-top: 56.25%;
+    overflow: hidden;
+}
+.warpper-card-img img{
+    position: absolute;
+    top: 0%;
+    
+    
+    
+}
+.warpper-card-img img:hover{
+    transform: scale(1.2);
+    
+}
+
+/* Section footer */
+
+.them-footer{
+    background-color: #BFD1E5;
+    color: black;
+}
 
 
+.map-footer{
+    position: relative;
+    padding: 20px;
+    width: 650px;
+    
 
+}
