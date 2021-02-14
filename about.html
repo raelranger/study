@@ -6,7 +6,9 @@
     <title>About</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Box icon -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Jarallax -->
     <link rel="stylesheet" href="node_modules/jarallax/dist/jarallax.css">
 </head>
 <body>
@@ -20,10 +22,10 @@
   
     <div class="collapse navbar-collapse" id="navbarkey">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
+        <li class="nav-item ">
           <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item active">
           <a class="nav-link" href="about.html">About</a>
         </li>
         <li class="nav-item">
@@ -37,8 +39,77 @@
     </div>
   </nav>
   
-  <!-- Section header -->
-    <header class=""></header>
+  <!-- Section Page title -->
+  <header data-jarallax='{"speed:0.5"}' class="page-litle jarallax" style="background-image: url('https://images.unsplash.com/photo-1520962922320-2038eebab146?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80');">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 ">
+            <h1 class="display-4 font-weight-bold text-danger">About Nature</h1>
+            <p class="lead" style="color: pink;">"Freedom can be felt just by looking around you.Open up to accept it"</p>
+          </div>
+        </div>
+      </div>
+  </header>
+
+  <!-- Section Todo -->
+  <section class="container py-4">
+    <div class="row">
+      <div class="col-lg-6 py-md-2">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ynLpZGegiJE" frameborder="0"  allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <h2>Open your mind to natural sounds.</h2>
+        <br>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi deserunt dolor saepe, quia veritatis voluptatum nulla minus laborum molestias nostrum reiciendis magnam et dolore nesciunt sint explicabo, quaerat doloribus maiores!
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Time line -->
+  <section class="position-relative py-md-5 jarallax" data-jarallax='{"speed:0.5"}'  style="background-image: url('https://images.unsplash.com/photo-1520962922320-2038eebab146?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80');">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 ">
+          <box-icon class="icon-tree" type='logo' name='spring-boot' size='lg'></box-icon>
+          <h1 class="display-4 font-weight-bold text-white">About Nature</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container py-5">
+    <div class="row">
+      <div class="col-12">
+        <ul class="timeline">
+          <li>
+            <div class="timelline-nature ">
+                <p class="text-info">Open mind</p>
+            </div>
+            <div class="timeline-card">
+                <h5>Open mind</h5>
+                <p class="text-muted">Reduce bias.</p>
+            </div>
+          </li>
+          <li class="inverted">
+            <div class="timelline-nature ">
+                <p class="text-info">Open mind</p>
+            </div>
+            <div class="timeline-card">
+                <h5>Open mind</h5>
+                <p class="text-muted">Reduce bias.</p>
+            </div>
+          </li>
+          <li class="timeline-arrow">
+              <i class="fa fa-chevron-down"></i>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
   <!-- Footer -->
   <footer class="them-footer p-5 text-center text-md-center">
@@ -70,7 +141,7 @@
       </div>
       <div class="col-md-4">
           <div class="map-footer">
-            <h4>Map</h4>
+            <box-icon name='map' type='solid' animation='fade-down-hover' size='lg'></box-icon>
             <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10683.564543968918!2d98.98037760998103!3d18.788771518455427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30da3a7e90bb6f5d%3A0x98d46270a59b4367!2z4LmA4LiX4Lio4Lia4Liy4Lil4LiZ4LiE4Lij4LmA4LiK4Li14Lii4LiH4LmD4Lir4Lih4LmIIOC4reC4s-C5gOC4oOC4reC5gOC4oeC4t-C4reC4h-C5gOC4iuC4teC4ouC4h-C5g-C4q-C4oeC5iCDguYDguIrguLXguKLguIfguYPguKvguKHguYg!5e0!3m2!1sth!2sth!4v1613206941111!5m2!1sth!2sth" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
           </div>
       </div>
