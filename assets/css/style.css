@@ -222,3 +222,20 @@ li.inverted > .timeline-card{
     }
 
 }
+
+/* Section Star-rateting */
+.star-rateting{
+    position: relative;
+    font-size: 2em;
+    color: gold;
+    text-align: center;
+    
+}
+.star-current{
+    position: absolute;
+    top: 0%;
+    width: 20%;
+    white-space: nowrap;
+    overflow: hidden;
+    right: 42.1%;
+}
