@@ -82,6 +82,10 @@ body{
     transform: scale(1.2);
     
 }
+.btn-group-custom button{
+    margin-bottom: 0.5rem;
+    width: 100px;
+}
 
 /* Section footer */
 
